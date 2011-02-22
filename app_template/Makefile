@@ -29,7 +29,7 @@ USED_MODULES =
 # for compiling XMOS applications. You should not need to edit below here.
 
 
-# Use the latest 1v* version of module_xmos_common
+# Use the main Makefile from module_xmos_common
 -include ../module_xmos_common/build/Makefile.common
 -include ../../xmos_common/module_xmos_common/build/Makefile.common
 
