@@ -1,0 +1,53 @@
+This repository provides a template for new repositories on the XMOS
+github repository site. To create a new repository using this template
+use the following steps. These steps assume that you have created a
+new, empty repository on the XMOS github site. 
+
+Requirements:
+
+  * Git installed locally
+  * Python installed locally
+  * An new empty github repository
+
+Steps:
+
+1. Create a working directory (or use an existing one with other
+   repositories in).
+
+2. If it does not already exist, clone the xmos_common repository from
+   github:
+
+     git clone ssh://git@github.com/xmos/xmos_common.git
+
+3. Clone the xmos_template repository from github:
+
+     git clone ssh://git@github.com/xmos/xmos_template.git
+
+4. Use the rename_repository script to rename xmos_template to your
+   repository name. Run this script from the working directory above
+   the xmos_template directory. For example to change the name to my_repo:
+
+     python xmos_common/util/rename_repository.py xmos_template my_repo
+
+5. You can now change into the new my_repo directory:
+
+     cd my_repo
+
+   this will have its origin pointing at xmos/my_repo on github.
+
+6. Either copy/modify the app_template, plugin_template and 
+   module_template directories to contain the source code for the
+   apps, modules and plugins of the repository. Or copy in existing
+   apps and modules from elsewhere. Make sure that any copied in 
+   directories have Makefiles/module_build_infos in a similar form to the 
+   template examples.
+
+7. Once you have your specific modules set up you can remove the
+   template directories, the TEMPLATE_HOWTO file and any template
+   README files from the new repository.
+ 
+8. Now you can stage all the new files and do the repositories first
+   commit and push it to a newly created github repo with the same
+   name. 
+   
+     
