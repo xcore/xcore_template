@@ -49,7 +49,7 @@ Steps:
 
    # Use the main Makefile from module_xmos_common
    -include ../module_xmos_common/build/Makefile.common
-   -include ../../xmos_common/module_xmos_common/build/Makefile.common
+   -include ../../xcommon/module_xcommon/build/Makefile.common
 
 7. Once you have your specific modules set up you can remove the
    template directories, the TEMPLATE_HOWTO file and any template
