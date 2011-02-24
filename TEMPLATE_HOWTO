@@ -1,7 +1,8 @@
-This repository provides a template for new repositories on the XMOS
-github repository site. To create a new repository using this template
+This repository provides a template for new repositories on the XCore
+open source github repository site.
+To create a new repository using this template
 use the following steps. These steps assume that you have a
-new, empty repository on the XMOS github site (see 
+new, empty repository on the XCore open source github site (see 
 https://github.com/xmos/Community/wiki/Repository-management on how 
 to do this)
 
@@ -18,10 +19,10 @@ Steps:
 1. Create a working directory (or use an existing one with other
    repositories in).
 
-2. If it does not already exist, clone the xmos_common repository from
+2. If it does not already exist, clone the xcommon repository from
    github:
 
-     git clone ssh://git@github.com/xmos/xmos_common.git
+     git clone ssh://git@github.com/xmos/xcommon.git
 
 3. Clone the xmos_template repository from github:
 
@@ -31,7 +32,7 @@ Steps:
    repository name. Run this script from the working directory above
    the xmos_template directory. For example to change the name to my_repo:
 
-     python xmos_common/util/rename_repository.py xmos_template my_repo
+     python xcommon/util/rename_repository.py xmos_template my_repo
 
 5. You can now change into the new my_repo directory:
 
@@ -47,8 +48,8 @@ Steps:
    template examples. Pay particular attention to the include part of
    an application Makefile. It should look like this:
 
-   # Use the main Makefile from module_xmos_common
-   -include ../module_xmos_common/build/Makefile.common
+   # Use the main Makefile from module_xcommon
+   -include ../module_xcommon/build/Makefile.common
    -include ../../xcommon/module_xcommon/build/Makefile.common
 
 7. Once you have your specific modules set up you can remove the
