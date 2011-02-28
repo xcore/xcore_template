@@ -16,21 +16,17 @@ Requirements:
 
 Steps:
 
-1. Create a working directory (or use an existing one with other
-   repositories in).
+1. Create a working directory (or use an existing one with other repositories in).
 
-1. If it does not already exist, clone the xcommon repository from
-   github:
+1. If it does not already exist, clone the xcommon repository from github::
 
      git clone ssh://git@github.com/xmos/xcommon.git
 
-1. Clone the xmos_template repository from github:
+1. Clone the xmos_template repository from github::
 
      git clone ssh://git@github.com/xmos/xmos_template.git
 
-1. Use the rename_repository script to rename xmos_template to your
-   repository name. Run this script from the working directory above
-   the xmos_template directory. For example to change the name to my_repo:
+1. Use the rename_repository script to rename xmos_template to your repository name. Run this script from the working directory above the xmos_template directory. For example to change the name to my_repo::
 
      python xcommon/util/rename_repository.py xmos_template my_repo
 
