@@ -15,10 +15,10 @@ to do this) to share this with the world.
 Requirements
 ------------
 
-  * Git installed locally
-  * Python installed locally (version 2.7)
-  * An new empty github repository
-  * A github account with ssh keys generated (see "Generate a Keypair" at http://help.github.com/)
+* Git installed locally
+* Python installed locally (version 2.7)
+* An new empty github repository
+* A github account with ssh keys generated (see "Generate a Keypair" at http://help.github.com/)
 
 Steps for creating a new repository/project
 -------------------------------------------
