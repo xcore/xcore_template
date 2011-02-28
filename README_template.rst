@@ -23,7 +23,7 @@ To Do
 Firmware Overview
 =================
 
-More in depth description
+<One or more paragraphs detailing the functionality of modules and apps in this repo>
 
 Known Issues
 ============
@@ -39,3 +39,4 @@ Required Repositories
 Support
 =======
 
+<Description of support model>
