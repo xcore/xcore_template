@@ -19,28 +19,28 @@ Steps:
 1. Create a working directory (or use an existing one with other
    repositories in).
 
-2. If it does not already exist, clone the xcommon repository from
+1. If it does not already exist, clone the xcommon repository from
    github:
 
      git clone ssh://git@github.com/xmos/xcommon.git
 
-3. Clone the xmos_template repository from github:
+1. Clone the xmos_template repository from github:
 
      git clone ssh://git@github.com/xmos/xmos_template.git
 
-4. Use the rename_repository script to rename xmos_template to your
+1. Use the rename_repository script to rename xmos_template to your
    repository name. Run this script from the working directory above
    the xmos_template directory. For example to change the name to my_repo:
 
      python xcommon/util/rename_repository.py xmos_template my_repo
 
-5. You can now change into the new my_repo directory:
+1. You can now change into the new my_repo directory:
 
      cd my_repo
 
    this will have its origin pointing at xmos/my_repo on github.
 
-6. Either copy/modify the app_template, plugin_template and 
+1. Either copy/modify the app_template, plugin_template and 
    module_template directories to contain the source code for the
    apps, modules and plugins of the repository. Or copy in existing
    apps and modules from elsewhere. Make sure that any copied in 
@@ -52,13 +52,12 @@ Steps:
    -include ../module_xcommon/build/Makefile.common
    -include ../../xcommon/module_xcommon/build/Makefile.common
 
-7. Once you have your specific modules set up you can remove the
-   template directories, the TEMPLATE_HOWTO file and any template
-   README files from the new repository.
+1. Once you have your specific modules set up you can remove the
+   template directories, and rename the README_template.rst file to README.rst.
  
-8. Now you can stage all the new files and do the repositories first
+1. Now you can stage all the new files and do the repositories first
    commit and push it to a newly created github repo with the same
-   name. You can do that like this:
+   name. You can do that like this::
 
 	git add -A
 	git commit -am "First commit"
