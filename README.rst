@@ -37,9 +37,9 @@ Steps:
 
 #. Either copy/modify the app_template, plugin_template and module_template directories to contain the source code for the apps, modules and plugins of the repository. Or copy in existing apps and modules from elsewhere. Make sure that any copied in directories have Makefiles/module_build_infos in a similar form to the template examples. Pay particular attention to the include part of an application Makefile. It should look like this::
 
-   # Use the main Makefile from module_xcommon
-   -include ../module_xcommon/build/Makefile.common
-   -include ../../xcommon/module_xcommon/build/Makefile.common
+    # Use the main Makefile from module_xcommon
+     -include ../module_xcommon/build/Makefile.common
+     -include ../../xcommon/module_xcommon/build/Makefile.common
 
 #. Once you have your specific modules set up you can remove the template directories, and rename the README_template.rst file to README.rst.
  
