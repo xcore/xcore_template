@@ -1,7 +1,7 @@
 <title>
 .......
 
-:Stable_release:  eg 0v5, 1v0, unreleased
+:Stable release:  eg 0v5, 1v0, unreleased
 
 :Status:  eg, Feature complete, draft, idea, alpha
 
