@@ -48,7 +48,7 @@ Steps for creating a new repository/project
    -include ../module_xcommon/build/Makefile.common
    -include ../../xcommon/module_xcommon/build/Makefile.common
 
-#. Once you have your specific modules set up you can remove the template directories, and rename the README_template.rst file to README.rst.
+#. Once you have your specific modules set up you can remove the template directories.
  
 #. Code away.
 
@@ -60,4 +60,7 @@ Steps for creating a new repository/project
 	git commit -am "First commit"
 	git push -u origin master
 
-#. That's all...
+#. Now you can remove this README.rst file, rename the README_template.rst file to README.rst, and fill in the blanks. Use ``git commit`` and ``git push`` as normal.
+
+
+
