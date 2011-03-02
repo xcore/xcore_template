@@ -13,12 +13,12 @@
 Key Features
 ============
 
-   * <Bullet pointed list of features>
+* <Bullet pointed list of features>
 
 To Do
 =====
 
-   * <Bullet pointed list of missing features>
+* <Bullet pointed list of missing features>
 
 Firmware Overview
 =================
@@ -28,13 +28,13 @@ Firmware Overview
 Known Issues
 ============
 
-   * <Bullet pointed list of problems>
+* <Bullet pointed list of problems>
 
 Required Repositories
 ================
 
-   * <list of repos, likely to include xcommon if it uses the build system>
-   * xcommon git\@github.com:xcore/xcommon.git
+* <list of repos, likely to include xcommon if it uses the build system>
+* xcommon git\@github.com:xcore/xcommon.git
 
 Support
 =======
