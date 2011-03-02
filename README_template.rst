@@ -1,14 +1,14 @@
 <title>
 .......
 
-:Stable release:  eg 0v5, 1v0, unreleased
+:Stable release:  eg 0.5.1, 1.1.3, unreleased (see `versioning <https://github.com/xcore/Community/wiki/Versioning>`_)
 
 :Status:  eg, Feature complete, draft, idea, alpha
 
 :Maintainer:  <name>
 
+:Description:  A brief description of the repo
 
-<One or more sentences explaining the purpose of the repo>
 
 Key Features
 ============
