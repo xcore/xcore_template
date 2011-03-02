@@ -5,7 +5,7 @@
 
 :Status:  eg, Feature complete, draft, idea, alpha
 
-:Maintainer:  <name>
+:Maintainer:  <name>, this should hyperlink to your github profile
 
 :Description:  A brief description of the repo
 
