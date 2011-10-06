@@ -36,6 +36,8 @@
 #   listed in TEST_SUBDIRS.
 #  
 
+TLWARN = $$(warning Source file $1 in top level will not be built)
+$(foreach x,$(wildcard *.xc) $(wildcard *.c) $(wildcard *.cpp) $(wildcard *.h) $(wildcard *.S),$(eval $(call TLWARN,$x)))
 
 # This variable should contain a space separated list of all
 # the directories containing buildable applications (usually
