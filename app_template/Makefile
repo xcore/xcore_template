@@ -19,7 +19,7 @@ USED_MODULES =
 ifeq "$(CONFIG)" "Debug"
 XCC_FLAGS = -g -O0
 else
-XCC_FLAGS = -g -O3
+XCC_FLAGS = -g -O2
 endif
 
 # The VERBOSE variable, if set to 1, enables verbose output from the make
